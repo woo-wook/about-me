@@ -1,0 +1,25 @@
+title: 유한욱 | Backend Developer
+author: 유한욱
+email: ryu@hanwook.me
+url: https://hanwook.me
+baseurl: ""
+
+description: >
+  코드의 가독성과 안정성에 집착하는 개발자입니다.<br/>
+  깔끔하고 효율적인 코드 작성은 물론, 리팩터링을 통한 코드 개선을 즐깁니다.<br/>
+  모든 코드는 유지보수를 염두에 두어야 한다는 철학을 가지고 있습니다.
+
+theme_config:
+  appearance: "auto" # can be "light", "dark" or "auto"
+  back_home_text: ".." # customize text for homepage link in post layout
+  date_format: "%Y-%m-%d" # customize how date is formatted
+  show_description: true # show blog description in home page
+  lowercase_titles: true # show titles in lowercase in lists
+
+sass:
+  style: compressed
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jektex
